@@ -1,13 +1,16 @@
 {
   "users": {
-    "data": [{
-      "id": "1",
-      "name": "Balthasar",
-      "surname": "Ulloa"
-    },{
-      "id": "2",
-      "name": "Garoa",
-      "surname": "Guzmán"
-    }]
+    "data": [
+      {
+        "id": "1",
+        "name": "Balthasar",
+        "surname": "Ulloa"
+      },
+      {
+        "id": "2",
+        "name": "Garoa",
+        "surname": "Guzmán"
+      }
+    ]
   }
 }
