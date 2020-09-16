@@ -1,4 +1,29 @@
 {
+  "empty": "",
+  "error": {
+    "messages": [
+      {
+        "alias": "invalidParameters",
+        "message": "There are invalid parameters in the request.",
+        "type": "ERROR",
+        "params": [
+          {
+            "name": "username",
+            "message": "User name is not valid. Invalid character: '@'"
+          }
+        ]
+      }
+    ]
+  },
+  "user": {
+    "data": [
+      {
+        "id": "1",
+        "name": "Balthasar",
+        "surname": "Ulloa"
+      }
+    ]
+  },
   "users": {
     "data": [
       {
@@ -11,6 +36,20 @@
         "name": "Garoa",
         "surname": "Guzmán"
       }
-    ]
+    ],
+    "pagination": {
+      "offset": 20,
+      "limit": 10,
+      "page": 3,
+      "totalPages": 7,
+      "totalElements": 65,
+      "links": {
+        "first": "http://my-json-server.typicode.com/ferranvila/json-server/users?limit=10",
+        "prev": "http://my-json-server.typicode.com/ferranvila/json-server/users?offset=10&limit=10",
+        "self": "http://my-json-server.typicode.com/ferranvila/json-server/users?offset=20&limit=10",
+        "next": "http://my-json-server.typicode.com/ferranvila/json-server/users?offset=30&limit=10",
+        "last": "http://my-json-server.typicode.com/ferranvila/json-server/users?offset=60&limit=10"
+      }
+    }
   }
 }
