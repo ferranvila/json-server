@@ -7,25 +7,29 @@
       }
     ]
   },
-  "technical-areas/tech-arch": {
-    "areas": [
-      {
-        "id": "frontend",
-        "name": "Frontend",
-        "idFunctional": "tech-arch"
-      },
-      {
-        "id": "backend",
-        "name": "Backend",
-        "idFunctional": "tech-arch"
-      },
-      {
-        "id": "api",
-        "name": "API",
-        "idFunctional": "tech-arch"
+  "technical-areas": [
+    {
+      "tech-arch": {
+        "areas": [
+          {
+            "id": "frontend",
+            "name": "Frontend",
+            "idFunctional": "tech-arch"
+          },
+          {
+            "id": "backend",
+            "name": "Backend",
+            "idFunctional": "tech-arch"
+          },
+          {
+            "id": "api",
+            "name": "API",
+            "idFunctional": "tech-arch"
+          }
+        ]
       }
-    ]
-  },
+    }
+  ],
   "codelabs/frontend": {
     "codelabs": [
       {
