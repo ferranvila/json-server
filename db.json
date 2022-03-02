@@ -2,5 +2,9 @@
   "posts": [
     { "id": 1, "title": "Title 1" },
     { "id": 2, "title": "Title 2" }
-  ]
+  ],
+  "profile": {
+    "name": "Ferran Vila Conesa",
+    "bio": "Technical Lead specialised in new Frontend Technologies (HTML5, Web Components, Stencil.js), Mobile Hybrid (Ionic) and DevOps, with knowledge of Middleware Systems (Java, Spring) and Backend. I combine my technical skills with leadership and development of multidisciplinary teams."
+  }
 }
