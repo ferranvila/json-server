@@ -1,6 +1,9 @@
 {
   "blog": {
-    "posts": [{ "title": "Title 1" }, { "title": "Title 2" }]
+    "posts": [
+      { "id": 1, "title": "Title 1" },
+      { "id": 2, "title": "Title 2" }
+    ]
   },
   "functional-areas": {
     "areas": [
